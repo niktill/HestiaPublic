@@ -1,0 +1,5 @@
+# folders and files to not put on Heroku
+/tests
+/product_research
+/ai_model
+/data

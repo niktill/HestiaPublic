@@ -1,0 +1,39 @@
+#!/bin/bash
+
+echo start bootstrap
+
+sudo apt update
+
+## Node.js ## 
+# install Node.js and npm with Ubuntu root
+sudo apt-get install curl
+
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+node -v
+npm -v
+
+
+## MongoDB ##
+# install MongoDB Community Edition with Ubunto root
+sudo apt-get install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+sudo apt-get install -y mongodb-org
+
+mongod --version
+
+#start MongoDB
+sudo systemctl daemon-reload
+sudo systemctl start mongod
+
+sudo systemctl status mongod
+
+
+# install dependancies declared in package.json
+npm install
+
+cd ./client
+npm install
+
+echo end bootstrap

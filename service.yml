@@ -1,0 +1,22 @@
+---
+# have test infrastructure sep up listed and be able to run it 
+tools:
+  exceptions: https://sentry.io/organizations/dcsil/issues/?project=5603803
+  logging: https://dashboard.heroku.com/apps/hestia-webapp/logs
+  ci: https://github.com/dcsil/hestia/actions
+
+services:
+  production: https://hestia-dev.herokuapp.com/
+  staging: https://hestia-staging.herokuapp.com/
+  development: https://hestia-dev.herokuapp.com/
+  
+docs:
+  getting_started: ./README.md
+  getting_github: https://github.com/dcsil/Hestia
+
+commands:
+  bootstrap: script/bootstrap  
+  database: https://cloud.mongodb.com/v2/603050ed4abc9034d50afc0e#clusters
+  server: npm run dev
+  test: npm run test
+...

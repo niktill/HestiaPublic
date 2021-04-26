@@ -1,0 +1,109 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root, #app, #desktop-app-grid, #mobile-dashboard {
+  height: 100%;
+  overflow: auto;
+  margin: 0;;
+}
+
+#app {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)
+}
+
+#login-logo {
+  width: 120px;
+}
+
+#login-form {
+  max-width: 550px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#desktop-menu-col {
+  padding: 20px 0;
+  position: fixed;
+  height: 100%;
+  max-width: 300px;
+  background-color: white;
+}
+
+#desktop-menu {
+  margin: 0;
+}
+
+#desktop-dashboard-col {
+  margin-left: 18.75%;
+}
+
+#desktop-app-row {
+  padding: 0;
+}
+
+#dashboard-logo {
+  width: 130px;
+  position: relative;
+  right: 25px;
+}
+
+.ui.secondary.menu .item {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0 !important;
+  padding: 1.2em  0 !important;
+}
+
+
+#desktop-menu.ui.vertical.menu {
+  width: auto !important;
+}
+
+#mobile-dashboard .mobile-nav-link {
+  visibility: visible !important;
+}
+
+#mobile-nav-logo {
+  width: 100px;
+  position: relative;
+  right: 25px;
+}
+
+.ui.vertical.menu .item>i.icon {
+  float: none !important;
+}
+
+.nav-span {
+  position: relative;
+}
+
+.nav-icon {
+  margin-right: 10px !important;
+  position: absolute;
+  right: 2.5em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#add-athlete-form.ui.form .inline.fields {
+  align-items: baseline !important;
+  margin: 0 !important;
+  justify-content: flex-end;
+}
+
+#add-athlete-form .required.field {
+  display: inline-block;
+  padding: 0;
+}
