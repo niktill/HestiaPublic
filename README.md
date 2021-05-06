@@ -1,4 +1,4 @@
-:information_source: This is a public copy of the private repository for my CSC491 capstone project, which is an MVP for a tech startup I had designed and developed throughout the course. Fabian Ulmer and myself (Nikolas Till) developed the code for the MVP of this capstone project and Jin Chun, Zheng Wei Lim, and Sangwoo Kim assisted in the buisness and marketing research for our startup.
+:information_source: This is a public copy of the private repository for my CSC491 capstone project, which is an MVP for a tech startup I had designed and developed with a team throughout the course. Fabian Ulmer and myself (Nikolas Till) developed the code for the MVP of this capstone project and Jin Chun, Zheng Wei Lim, and Sangwoo Kim assisted in the buisness and marketing research for our startup.
 
 # Hestia
 
