@@ -9,7 +9,7 @@ Hestia is a company founded in the fitness tech industry. Our startup is named a
 ## Table of Contents
 
 - [Product & Research](./product_research/)
-  - [Video Demo of MVP](./write_up.md)  
+  - [Video Demo of MVP](./product_research/write_up.md)  
   - [Market](./product_research/market.md)
   - [Roadmap](./product_research/roadmap.md)
 
